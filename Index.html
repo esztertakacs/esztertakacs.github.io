@@ -8,27 +8,16 @@
         <h2 class="pirosbetu">ÚJ BEJEGYZÉS</h2>
         <div class="ujbejegyzes">
         <br>
-        <h4>DÁTUM<form><input type="date">
+        <h4>DÁTUM<input type="date" id="datum">
         BEJEGYZÉS CÍME
-        <form><input class="egysor" type="text"></form></h4>
-        <textarea class="tobbsor"></textarea>
-        <button name="submit" type="submit" class="zold zoldit">KÉP CSATOLÁSA</button>
-        <button name="submit" type="submit" class="zold zoldit">ELKÜLD</button>
+        <input id="cim" type="text"></h4>
+        <textarea id="blogszoveg"></textarea>
+        <button name="submit" id="csatol" type="submit" class="zold zoldit">KÉP CSATOLÁSA</button>
+        <button name="submit" id="elkuld" type="submit" class="zold zoldit">ELKÜLD</button>
     </div>
     <br><br>
     <h2 class="zoldbetu">KORÁBBI BEJEGYZÉSEK</h2>
-            <div class="regibejegyzes">
-        <h3>Csilla és Tony</h3>
-        <p>Angliában élnek, vidám párocska egy kisfiúval.</p>
-        <img src="Nevtabla/CsillaTony/CAM03450.jpg" alt="Csilla és Tony" width="300px" class="kep"><br>
-        <button name="delete" type="submit" class="piros pirosit">TÖRÖL</button>
-    </div>
-    <div class="regibejegyzes">
-        <h3>Varga Lilla & Dr. Nagy Balázs</h3>
-        <p>Építész és fogorvos pár.</p>
-        <img src="Nevtabla/Varga Lilla - dr. Nagy Balázs/VargaLilla_DrNagyBalazs7.jpg" alt="Varga Lilla és Dr. Nagy Balázs" width="300px" class="kep"><br>
-        <button name="delete" type="submit" class="piros pirosit">TÖRÖL</button>
-    </div>
+            
     
 
     <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase.js"></script>
