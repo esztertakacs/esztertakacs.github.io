@@ -1,0 +1,53 @@
+body {font-family:'Myriad Pro Condensed', 'Arial Narrow';
+    background-color: rgba(234, 226, 183, 1);
+    margin: auto 100px;
+    color:white;
+}
+.ujbejegyzes {background-color: rgba(233, 93, 93, 1);
+    border-radius: 20px;
+    border: none;
+    padding: 10px auto;
+}
+.regibejegyzes {border: solid 8px #7eb530;
+    border-radius: 20px;
+    padding: 10px auto;
+    margin: 10px 0;
+}
+h1 {background-color: #7eb530;
+    height: 80px;
+    text-align: center;
+    line-height: 80px;
+    border-radius: 40px;
+    margin-top:10px;
+    padding: 0px auto;
+    font-size: 40px;}
+h2 {margin: 10px 20px;
+    border: none;
+    padding: 20px auto;
+    color:rgba(233, 93, 93, 1);}
+h3 {color: black}
+p {color: black}
+h4 {margin:10px 20px;
+    border: none;
+    padding:10px auto;
+    font-size: 18px}
+textarea {margin: 0 -20px 0 20px; border: none;}
+form {margin: auto 100px auto 0px;}
+button {border-radius: 98px;
+    font-size:18px;
+    font-family:'Myriad Pro Condensed', 'Arial Narrow';
+    font-weight:700;
+    padding: 5px 20px;
+    text-align: center;
+    margin: 10px 0px 10px 20px;
+    color:white;
+    border: none;}
+    .zoldit:hover {background-color: rgb(10, 131, 26);}
+    .pirosit:hover {background-color: rgb(231, 7, 7);}
+.egysor {width:30%;height:24px;}
+.tobbsor {width: 96%;height: 30%;border-radius: 20px;}
+.zold {background-color:#7eb530;}
+.piros {background-color:rgba(233, 93, 93, 1);}
+.zoldbetu {color:#7eb530;}
+.pirosbetu {color:rgba(233, 93, 93, 1);}
+.kep {margin: 20px;}
